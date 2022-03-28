@@ -13,7 +13,7 @@ public class Model {
 	}
 	
 	public List<Corso> getCorsiByPeriodo(int periodo){
-		return this.corsoDao.getCorsiByPeriodo(periodo);
+		return this.corsoDao.getCorsiByPeriodo(periodo); 
 	}
 	
 	
